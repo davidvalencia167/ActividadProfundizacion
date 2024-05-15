@@ -1,0 +1,765 @@
+/*index*/
+
+.navbar-brand {
+    padding-left: 16px;
+}
+
+.form-control {
+    width: 300px;
+}
+
+.popular-movies-text {
+    padding: 70px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.movie-card {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.movie-card .card-body {
+    min-height: 125px;
+    color: #000;
+    position: relative;
+}
+
+.movie-card .card-title {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.movie-card .card-body p {
+    padding: 10px;
+}
+
+.movie-card .card-rating {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    background-color: #fff;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    display: block;
+    z-index: 100;
+    min-width: 35px;
+    font-size: .8em;
+    border-radius: 50%;
+    border: 2px solid steelblue;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 300px;
+}
+
+.card-rating {
+    top: 20px;
+}
+
+.movie-card2 {
+    margin: 30px;
+    margin-right: 7px;
+    top: 280px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.movie-card2 ,.card-body {
+    min-height: 125px;
+    color: #000;
+    position: relative;
+}
+
+.movie-card2 .card-title {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.movie-card2 .card-body p {
+    padding: 15px;
+}
+
+.movie-card2 .card-rating {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    background-color: #fff;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    display: block;
+    z-index: 100;
+    min-width: 35px;
+    font-size: .8em;
+    border-radius: 50%;
+    border: 2px solid steelblue;
+}
+
+footer {
+    position: relative;
+    top: 600px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 16px;
+}
+
+footer h3 {
+    color: #000;
+}
+
+/*Civil War film*/
+
+.mi-container-review {
+    margin-top: 80px;
+}
+
+.movie {    
+    margin-bottom: 0;
+    margin-top: 130px;
+    background-color: rgba(35,41,44,255);
+    color: #dee2e6;
+    position: relative;
+    display: grid;
+    margin-right: 40px;
+    margin-left: 30px;
+    grid-template: "image info" "image start";
+    justify-content: start;
+    grid-template-columns: 300px 1fr;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.movie_img {
+    width: 300px;
+    grid-area: image;
+}
+
+.movie-info {
+    grid-area: info;
+}
+
+.movie h2 {
+    color: #000;
+    margin-right: 30px;
+}
+
+.movie_tagline {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.genders {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.genders li {
+    margin-right: 20px;
+}
+
+.progress {
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.movie_info_text p {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.movie_info_text h3 {
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.director {
+    padding-top: 10px;
+}
+
+.movie-cast {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px 0 0 30px;
+}
+
+.list-title {
+    justify-content: first baseline;
+}
+
+.actors {
+    margin-bottom: 0;
+    margin-top: 130px;
+    position: relative;
+    left: 30px;    
+}
+
+.actors h1 {
+    margin: 30px;
+}
+
+.actors-grid-content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.actors-grid-element {
+    width: 400px;
+    margin-left: 20px;
+    background: #353535;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden;
+}
+
+.first-actor {
+    box-sizing: border-box;
+}
+
+.actor-data img {
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.actor-name {
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #fff;
+    margin: 10px 20px;
+    width: 40%;
+    float: left;
+}
+
+.actor-character {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #fff;
+    float: left;
+    margin: 0 20px 10px;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.actors-grid-element2 {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    background: #353535;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden;
+}
+
+.trailer {
+    margin-bottom: 0;
+    margin-top: 130px;
+    position: relative;
+    left: 50px;    
+}
+
+.ratio {
+    margin: 30px;
+    margin-left: 60px;
+    margin-bottom: 0;
+    width: 120%;
+}
+
+.movie-gallery {
+    width: 120%;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+.list-title {
+    color: #000;
+}
+
+.image-gallery {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 100%;
+}
+
+.image-gallery-content {
+    position: relative;
+    line-height: 0;
+    top: 0;
+}
+
+/*the Chosen film*/
+
+.second-movie {
+    margin-bottom: 0;
+    margin-top: 130px;
+    background-color: #570bad;
+    color: #dee2e6;
+    position: relative;
+    display: grid;
+    margin-right: 40px;
+    margin-left: 30px;
+    grid-template: "image info" "image start";
+    justify-content: start;
+    grid-template-columns: 300px 1fr;
+}
+
+.second_movie_img {
+    width: 300px;
+    grid-area: image;
+}
+
+.second_movie_info_text h3 {
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.second_movie_tagline {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.second_flex_container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+
+.actors-second-grid-element {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    background: #570bad;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden; 
+}
+
+/*Back to Black film*/
+
+.third-movie {
+    margin-bottom: 0;
+    margin-top: 130px;
+    background-color: #0bc41a;
+    color: #dee2e6;
+    position: relative;
+    display: grid;
+    margin-right: 40px;
+    margin-left: 30px;
+    grid-template: "image info" "image start";
+    justify-content: start;
+    grid-template-columns: 300px 1fr;
+}
+
+.third_movie_img {
+    width: 300px;
+    grid-area: image;
+}
+
+.third_movie_info_text h3 {
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.third_movie_tagline {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.third_flex_container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.actors-third-grid-element {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    background: #0bc41a;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden; 
+}
+
+/*Abigail film*/
+
+.fourth-movie {
+    margin-bottom: 0;
+    margin-top: 130px;
+    background-color: #0bc45e;
+    color: #dee2e6;
+    position: relative;
+    display: grid;
+    margin-right: 40px;
+    margin-left: 30px;
+    grid-template: "image info" "image start";
+    justify-content: start;
+    grid-template-columns: 300px 1fr;
+}
+
+.fourth_movie_img {
+    width: 300px;
+    grid-area: image;
+}
+
+.fourth_movie_tagline {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.fourth_flex_container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.fourth_movie_info_text h3 {
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.actors-fourth-grid-element {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    background: #0bc45e;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden; 
+}
+
+/*Kung Fu Panda 4*/
+
+.fifth-movie {
+    margin-bottom: 0;
+    margin-top: 130px;
+    background-color: #04054d;
+    color: #dee2e6;
+    position: relative;
+    display: grid;
+    margin-right: 40px;
+    margin-left: 30px;
+    grid-template: "image info" "image start";
+    justify-content: start;
+    grid-template-columns: 300px 1fr;
+}
+
+.fifth_movie_img {
+    width: 300px;
+    grid-area: image;
+}
+
+.fifth_movie_info_text h3 {
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.fifth_movie_tagline {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.fifth_flex_container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.actors-fifth-grid-element {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    background: #04054d;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden; 
+}
+
+/*Godzilla and Kong film*/
+
+.sixth_movie {
+    margin-bottom: 0;
+    margin-top: 130px;
+    background-color: #92089e;
+    color: #dee2e6;
+    position: relative;
+    display: grid;
+    margin-right: 40px;
+    margin-left: 30px;
+    grid-template: "image info" "image start";
+    justify-content: start;
+    grid-template-columns: 300px 1fr;
+}
+
+.sixth_movie_image {
+    width: 300px;
+    grid-area: image;
+}
+
+.sixth_movie_info_text h3 {
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.sixth_movie_tagline {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.sixth_flex_container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.actors-sixth-grid-element {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    background: #92089e;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden; 
+}
+
+/*Transformers 40th film*/
+
+.seventh_movie {
+    margin-bottom: 0;
+    margin-top: 130px;
+    background-color: #b3077f;
+    color: #dee2e6;
+    position: relative;
+    display: grid;
+    margin-right: 40px;
+    margin-left: 30px;
+    grid-template: "image info" "image start";
+    justify-content: start;
+    grid-template-columns: 300px 1fr;
+}
+
+.seventh_movie_img {
+    width: 300px;
+    grid-area: image;
+}
+
+.seventh_movie_info_text h3 {
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.seventh_movie_tagline {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.seventh_flex_container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.actors-seventh-grid-element {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    background: #b3077f;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden; 
+}
+
+/*Spy X Family film*/
+
+.eighth_movie {
+    margin-bottom: 0;
+    margin-top: 130px;
+    background-color: #b3073b;
+    color: #dee2e6;
+    position: relative;
+    display: grid;
+    margin-right: 40px;
+    margin-left: 30px;
+    grid-template: "image info" "image start";
+    justify-content: start;
+    grid-template-columns: 300px 1fr;
+}
+
+.eighth_movie_image {
+    width: 300px;
+    grid-area: image;
+}
+
+.eighth_movie_info_text h3 {
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.eighth_movie_tagline {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.eighth_flex_container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.actors-eighth-grid-element {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    background: #b3077f;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden; 
+}
+
+/*challenging film*/
+
+.ninth_movie {
+    margin-bottom: 0;
+    margin-top: 130px;
+    background-color: #2c020f;
+    color: #dee2e6;
+    position: relative;
+    display: grid;
+    margin-right: 40px;
+    margin-left: 30px;
+    grid-template: "image info" "image start";
+    justify-content: start;
+    grid-template-columns: 300px 1fr;
+}
+
+.ninth_movie_img {
+    width: 300px;
+    grid-area: image;
+}
+
+.ninth_movie_info_text h3 {
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.ninth_movie_tagline {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.ninth_flex_container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.actors-ninth-grid-element {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    background: #2c020f;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden; 
+}
+
+/*the first omen film*/
+
+.tenth_movie {
+    margin-bottom: 0;
+    margin-top: 130px;
+    background-color: #83080e;
+    color: #dee2e6;
+    position: relative;
+    display: grid;
+    margin-right: 40px;
+    margin-left: 30px;
+    grid-template: "image info" "image start";
+    justify-content: start;
+    grid-template-columns: 300px 1fr;
+}
+
+.tenth_movie_img {
+    width: 300px;
+    grid-area: image;
+}
+
+.tenth_movie_info_text h3 {
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 30px;
+}
+
+.tenth_movie_tagline {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.tenth_flex_container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.actors-tenth-grid-element {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    background:#83080e;
+    max-height: 200px;
+    align-content: baseline;
+    overflow: hidden; 
+}
+
+@media (max-width: 767px) {
+    .movie-card {
+      margin: 200px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .movie-card2 {
+      margin: 200px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-lg-4 {
+      flex: 1 0 100%; 
+    }
+  }
+  
